@@ -1,0 +1,442 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rajdhani', sans-serif;
+    scroll-behavior: smooth;
+    text-size-adjust: auto;
+}
+
+body
+{
+    background-color: #121212;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header
+{
+    width: 100%;
+    max-height: 100vh;
+}
+
+nav{
+    padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    text-align: right;
+    justify-content:center;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px 20px;
+    font-size: 11px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+
+nav ul li a:hover{
+    content: '';
+    text-decoration: underline;
+    transition: .2s;
+}
+
+.intro-img img {
+    height: auto;   
+    width: clamp(0px, 100%, 800px);
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    display: block;
+}
+
+.loading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loading span
+{
+    width: 5px;
+    height: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+    animation-name: dots;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.loading span:nth-child(2)
+{
+    animation-delay: 0.4s;
+}
+
+.loading span:nth-child(3)
+{
+    animation-delay: 0.8s;
+}
+
+.loading span:nth-child(4)
+{
+    animation-delay: 1.2s;
+}
+
+.loading span:nth-child(5)
+{
+    animation-delay: 1.6s;
+}
+
+@keyframes dots
+{
+    50%
+    {
+        opacity: 0;
+        transform: scale(0.7) translateY(10px);
+    }
+}
+
+#about-me-section{
+    position: relative;
+    max-height: 100vh;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#about-me-section h1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+
+#about-me-section img
+{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: clamp(0px, 100%, 650px);
+    height: 50%;
+}
+
+#about-me-section p
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: clamp(0px, 100%, 650px);
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+#project-section
+{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#project-section h1
+{
+    font-size: 40px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+#project-section img
+{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: clamp(0px, 100%, 650px);
+    height: 60%;
+    box-shadow: 15px 15px 10px 0px #666;
+}
+
+#project-section h2
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    color: #121212;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: clamp(0px, 100%, 350px);
+    font-size: 30px;
+    letter-spacing: 2px;
+    background-color: rgb(208, 196, 196);
+}
+
+#project-section p
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: clamp(0px, 100%, 650px);
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+
+#project-section a
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 8em;
+}
+
+#contact-me-section
+{
+    max-height: 100vh;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-height: 100vh;
+    width: clamp(0px, 100%, 650px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact-me-section h1
+{
+    font-size: 40px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-transform: uppercase;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+#contact-me-section p
+{
+    font-size: 20px;
+    color: #fffa;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#contact-me-section .contact-me-container
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-template-columns:  repeat(2, 2fr);
+    grid-gap: 6rem;
+}
+
+#contact-me-section .contact-me-container form
+{
+    position: relative;
+}
+
+#contact-me-section .contact-me-container form input, form textarea
+{
+    width: 100%;
+    padding: 17px;
+    border: none;
+    outline: none;
+    background: #191919;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px; 
+}
+
+#contact-me-section .contact-me-container textarea
+{
+    resize: none;
+    height: 150px;
+}
+
+#contact-me-section .contact-me-container form .btn
+{
+    display: inline-block;
+    background: #444;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    width: 160px;
+    transition: ease .20s;
+    cursor: pointer;
+}
+
+#contact-me-section .contact-me-container form .btn:hover
+{
+    border: 2px solid #444;
+    background: transparent;
+    transform: scale(1.1);
+}
+
+@media (max-width: 700) {
+    #contact-me-section .contact-me-container
+    {
+        padding: 80px 3%;
+        transition: 0.2s;
+    }
+    #contact-me-section h1
+    {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 700)
+{
+    #contact-me-section{
+        grid-template-columns: 1fr;
+    }
+
+    #contact-me-section .contact-me-container
+    {
+        order: 2;
+    }
+}
+
+footer
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #fff;
+    margin-top: 8em;
+}
+
+.portfolio
+{
+    position: fixed;
+    top: 35%;
+    left: 3px;
+}
+
+.portfolio h4
+{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: #fff;
+    font-size: 10px;
+}
+
+.icon-bar {
+    position: fixed;
+    top: 96%;
+    left: 5px;
+}
+.icon-bar ul{
+    position: relative;
+    display: flex;
+}
+
+.icon-bar ul li {
+    position: relative;
+    list-style: none;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.icon-bar ul li a{
+    text-decoration: none;
+}
+
+.icon-bar ul li a .fa-brands
+{
+    font-size: 25px;
+    color: #888;
+}
+
+.icon-bar ul li::before
+{
+    font-family: "Font Awesome 5 Brands";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 25px;
+    height: 0;
+    overflow: hidden;
+    transition: 0.8s ease-in-out;
+}
+
+.icon-bar ul li:nth-child(1)::before{
+    content: "\f08c";
+    color: #fff;
+    border-bottom: 3px solid #121212;
+}
+
+.icon-bar ul li:nth-child(2)::before
+{
+    content: "\f09b";
+    color: #fff;
+    border-bottom: 3px solid #121212;
+}
+
+.icon-bar ul li:hover::before{
+    height: 100%;
+}
