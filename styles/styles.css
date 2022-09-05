@@ -387,12 +387,12 @@ footer
 
 .icon-bar {
     position: fixed;
-    top: 96%;
+    top: 3%;
     left: 5px;
 }
 .icon-bar ul{
     position: relative;
-    display: flex;
+    display: block;
 }
 
 .icon-bar ul li {
