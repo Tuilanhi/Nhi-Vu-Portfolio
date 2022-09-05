@@ -13,6 +13,7 @@ body
     background-color: #121212;
     margin-left: 20px;
     margin-right: 20px;
+    min-height: 100%;
 }
 
 header
@@ -252,6 +253,7 @@ nav ul li a:hover{
     width: clamp(0px, 100%, 650px);
     padding-top: 30px;
     padding-bottom: 30px;
+    min-height: 100%;
 }
 
 #contact-me-section h1
