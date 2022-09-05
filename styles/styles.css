@@ -22,7 +22,10 @@ header
 }
 
 nav{
+    position: relative;
     padding-top: 30px;
+    padding-left: 2%;
+    padding-right: 2%;
     display: flex;
     text-align: right;
     justify-content:center;
