@@ -11,8 +11,8 @@
 body
 {
     background-color: #121212;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
     min-height: 100%;
 }
 
@@ -142,7 +142,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    width: clamp(0px, 100%, 850px);
+    width: clamp(0px, 100%, 800px);
     height: 50%;
 }
 
@@ -189,7 +189,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
-    width: clamp(0px, 100%, 850px);
+    width: clamp(0px, 100%, 800px);
     height: 60%;
     box-shadow: 15px 15px 10px 0px #666;
 }
