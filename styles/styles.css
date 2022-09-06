@@ -11,8 +11,8 @@
 body
 {
     background-color: #121212;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     min-height: 100%;
 }
 
@@ -56,7 +56,7 @@ nav ul li a:hover{
 
 .intro-img img {
     height: auto;   
-    width: clamp(0px, 100%, 800px);
+    width: clamp(0px, 100%, 850px);
     margin: auto;
     padding-top: 100px;
     padding-bottom: 60px;
@@ -142,7 +142,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    width: clamp(0px, 100%, 650px);
+    width: clamp(0px, 100%, 850px);
     height: 50%;
 }
 
@@ -157,7 +157,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    width: clamp(0px, 100%, 650px);
+    width: clamp(0px, 100%, 700px);
     font-size: 20px;
     margin-bottom: 60px;
 }
@@ -189,7 +189,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 60px;
-    width: clamp(0px, 100%, 650px);
+    width: clamp(0px, 100%, 850px);
     height: 60%;
     box-shadow: 15px 15px 10px 0px #666;
 }
@@ -204,6 +204,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     width: clamp(0px, 100%, 350px);
     font-size: 30px;
     letter-spacing: 2px;
@@ -220,8 +221,7 @@ nav ul li a:hover{
     color: #fff;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    width: clamp(0px, 100%, 650px);
+    width: clamp(0px, 100%, 700px);
     font-size: 20px;
     margin-bottom: 60px;
 }
@@ -250,7 +250,7 @@ nav ul li a:hover{
     margin-right: auto;
     position: relative;
     min-height: 100vh;
-    width: clamp(0px, 100%, 650px);
+    width: clamp(0px, 100%, 700px);
     padding-top: 30px;
     padding-bottom: 30px;
     min-height: 100%;
