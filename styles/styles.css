@@ -398,7 +398,7 @@ footer
 .icon-bar ul li {
     position: relative;
     list-style: none;
-    margin: 0px 5px;
+    margin: 5px;
     cursor: pointer;
 }
 
