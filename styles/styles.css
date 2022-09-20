@@ -142,7 +142,7 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
-    width: clamp(0px, 100%, 800px);
+    width: clamp(0px, 100%, 450px);
     height: 50%;
 }
 
